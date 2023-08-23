@@ -12,7 +12,6 @@ export const PercentageP = styled.p`
 `;
 
 function changePercColor({ $posperc }) {
-  console.log($posperc);
   if ($posperc >= 70) {
     return 'green';
   } else if ($posperc >= 40) {
