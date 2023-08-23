@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types';
 import { ButtonWrapper } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
     <ButtonWrapper>
       {options.map(el => (
